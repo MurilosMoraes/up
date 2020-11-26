@@ -1,0 +1,33 @@
+.bg-lobby{
+    background-color: #25054d;
+    width: 100%;
+    height: 100%;
+}
+
+.img-lobby{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+
+ion-button{
+    --background: #0077e3;
+}
+
+.button-style{
+  width: 110px;
+  height: 110px;
+  position: relative;
+}
+.categoria{
+    position: absolute;
+    bottom: -5px;
+}
+.termos{
+    position:absolute;
+    font-weight: 300;
+    font-size: 14px;
+    bottom: 15px;
+    margin-left: 37%;
+}
