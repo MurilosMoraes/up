@@ -22,6 +22,18 @@ const routes: Routes = [
   {
     path: 'cadastro',
     loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
+  },
+  {
+    path: 'termos',
+    loadChildren: () => import('./termos/termos.module').then( m => m.TermosPageModule)
+  },
+  {
+    path: 'perfil',
+    loadChildren: () => import('./perfil/perfil.module').then( m => m.PerfilPageModule)
+  },
+  {
+    path: 'corridas',
+    loadChildren: () => import('./corridas/corridas.module').then( m => m.CorridasPageModule)
   }
 ];
 

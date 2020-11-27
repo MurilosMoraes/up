@@ -19,15 +19,15 @@ export class AppComponent implements OnInit {
     },
     {
       title: 'Corridas',
-      url: '/folder/Corridas',
+      url: '/corridas',
       icon: 'car'
     },
     {
       title: 'Termos de uso',
-      url: '/folder/Termos',
+      url: '/termos',
       icon: 'list'
     },
- 
+
   ];
 
   constructor(
