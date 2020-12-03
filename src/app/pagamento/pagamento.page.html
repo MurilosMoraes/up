@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-icon [routerLink]="['../folder/inbox']" class="arrow-back" name="chevron-back-outline"></ion-icon>
+    </ion-buttons>
+    <ion-title style="font-weight: 400; font-size: 16px;" >Formas de pagamento</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+
+
+<ion-content>
+ <div>
+  <ion-input class="style-input" placeholder="Numero do Cartão"></ion-input>
+</div>
+<div>
+  <ion-input  class="style-input" placeholder="MM/AAAA"></ion-input>
+</div>
+<div>
+  <ion-icon style="font-size: 40px;" name="help-circle-outline"></ion-icon>
+</div>
+  <ion-input  class="style-input" placeholder="CCV"></ion-input>
+<div>
+  <ion-icon  style="font-size: 40px;" name="help-circle-outline"></ion-icon>
+</div>
+<div>
+ <ion-button> Salvar </ion-button>
+</div>
+
+<div>
+ <p> Aviso de nenhum cartão cadastrado</p>
+</div>
+<div>
+  <p>
+    Mastercard xxxx xxxx xxxx 1047
+  </p>
+</div>
+<div>
+  <ion-icon style="font-size: 40px;" name="add-outline"></ion-icon>
+  <p>Adicionar forma de pagamento</p>
+</div>
+</ion-content>

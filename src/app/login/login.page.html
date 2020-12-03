@@ -1,18 +1,35 @@
 <ion-content>
 
   <div class="bg-login">
-    <ion-icon class="arrow-back" name="chevron-back-outline"></ion-icon>
+    <ion-icon [routerLink]="['../lobby']" class="arrow-back" name="chevron-back-outline"></ion-icon>
 
     <img class="img-login" src="../../assets/Login.svg" alt="imagem">
 
-    <ion-item class="input-number">
+    <ion-item class="input-number item-background-color">
       <ion-label class="input-number-1">Digite seu número:</ion-label>
       <ion-input></ion-input>
     </ion-item>
 
-    <ion-button class="button-style">Confirmar</ion-button>
+    <div class="container">
 
-    <p class="cadastro" [routerLink]="['/cadastro']">
+      <ion-list class="radio-background-color">
+        <ion-radio-group value="biff">
+
+          <ion-item class="item-inner">
+            <ion-label>
+              <p>Aceitar <a [routerLink]="['../termos']">Termos e condições de uso.</a></p>
+            </ion-label>
+            <ion-radio slot="start" value="biff"></ion-radio>
+          </ion-item>
+
+        </ion-radio-group>
+      </ion-list>
+
+    </div>
+
+    <ion-button [routerLink]="['../folder/inbox']" class="button-style">Confirmar</ion-button>
+
+    <p class="cadastro" [routerLink]="['../cadastro']">
       Quero me cadastrar
     </p>
   </div>

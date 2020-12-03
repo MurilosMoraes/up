@@ -1,9 +1,47 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Perfil</ion-title>
+    <ion-buttons slot="start">
+      <ion-icon [routerLink]="['../folder/inbox']" class="arrow-back" name="chevron-back-outline"></ion-icon>
+    </ion-buttons>
+    <ion-title style="font-weight: 400; font-size: 16px;" >Meu perfil</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
 
+<ion-content>
+  <ion-card>
+    <div class="flex">
+      <div class="img-perfil"></div>
+      <p style="color: #333;"> Trocar a imagem de perfil ></p>
+    </div>
+  </ion-card>
+
+  <ion-card>
+
+    <div>
+
+      <ion-item class="input-style mg-top-20">
+        <ion-label position="stacked">Nome</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+
+
+      <ion-item class="input-style">
+        <ion-label position="stacked">Telefone</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+
+
+      <ion-item class="input-style mg-bottom-20">
+        <ion-label position="stacked">Email</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+
+      <ion-button>Salvar</ion-button>
+
+    </div>
+
+
+
+  </ion-card>
 </ion-content>

@@ -3,5 +3,24 @@
     <ion-buttons slot="start">
       <ion-menu-button class="button-menu"></ion-menu-button>
     </ion-buttons>
+    <div>
+      <ion-button (click)="showModal()" class="flex">
+        <div class="point"></div>
+        <p>Para onde vamos?</p>
+      </ion-button>
+    </div>
+    <div>
+      <ion-slides pager>
+        <ion-slide class="slide-style">
+          <h1></h1>
+        </ion-slide>
+        <ion-slide class="slide-style">
+          <h1></h1>
+        </ion-slide>
+        <ion-slide class="slide-style">
+          <h1></h1>
+        </ion-slide>
+      </ion-slides>
+    </div>
   </div>
 </ion-content>

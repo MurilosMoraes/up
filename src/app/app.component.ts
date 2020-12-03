@@ -14,18 +14,37 @@ export class AppComponent implements OnInit {
   public appPages = [
     {
       title: 'Minha Conta',
-      url: '/folder/Conta',
+      url: '/perfil',
       icon: 'person'
     },
     {
       title: 'Corridas',
       url: '/corridas',
+      icon: 'reader'
+    },
+
+    {
+      title: 'Pagamento',
+      url: '/pagamento',
+      icon: 'card'
+    },
+
+    {
+      title: 'Seja Motorista',
+      url: '/dirija',
       icon: 'car'
     },
+
+    {
+      title: 'Cupom de Desconto',
+      url: '/cupom',
+      icon: 'ticket'
+    },
+
     {
       title: 'Termos de uso',
       url: '/termos',
-      icon: 'list'
+      icon: 'receipt'
     },
 
   ];

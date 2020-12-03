@@ -7,14 +7,26 @@
 }
 
 .gray {
-    color: #333333;
+    color: #333;
 }
 
 ion-header {
-    --ion-toolbar-background: #0077e3;
-    --ion-toolbar-border-color: #fff;
+    --ion-toolbar-background: #25054d;
+    --ion-toolbar-border-color: #0077e3;
 }
 
 ion-content {
-    --ion-background-color: #0077e3;
+    --ion-background-color: #25054d;
+}
+
+ion-card {
+    --ion-card-background: #fff;
+
+}
+
+.arrow-back {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #0077e3;
 }

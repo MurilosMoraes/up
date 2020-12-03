@@ -34,6 +34,26 @@ const routes: Routes = [
   {
     path: 'corridas',
     loadChildren: () => import('./corridas/corridas.module').then( m => m.CorridasPageModule)
+  },
+  {
+    path: 'pagamento',
+    loadChildren: () => import('./pagamento/pagamento.module').then( m => m.PagamentoPageModule)
+  },
+  {
+    path: 'convide',
+    loadChildren: () => import('./convide/convide.module').then( m => m.ConvidePageModule)
+  },
+  {
+    path: 'cupom',
+    loadChildren: () => import('./cupom/cupom.module').then( m => m.CupomPageModule)
+  },
+  {
+    path: 'dirija',
+    loadChildren: () => import('./dirija/dirija.module').then( m => m.DirijaPageModule)
+  },
+  {
+    path: 'modal',
+    loadChildren: () => import('./modal/modal.module').then( m => m.ModalPageModule)
   }
 ];
 

@@ -1,0 +1,58 @@
+ion-header {
+    --ion-toolbar-background: #25054d;
+    --ion-toolbar-border-color: #0077e3;
+}
+
+ion-content {
+    --ion-background-color: #25054d;
+}
+
+.img-perfil {
+    background-image: url("../../assets/perfil.jpg");
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-color: #0077e3;
+}
+
+
+.flex {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.arrow-back {
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+.input-style{
+    color: #333333;
+    width: 90%;
+    
+    
+
+}
+.mg-bottom-20{
+    margin-bottom: 20px;
+}
+
+.mg-top-20{
+    margin-top: 20px;
+}
+
+ion-button{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    --border-radius: 100px;
+    --background:#0077e3;
+}

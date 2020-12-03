@@ -17,11 +17,26 @@
     margin-top: 40%;
 }
 
-ion-item {
+
+.item-background-color {
     --background: #ffffff;
     --color: #000000;
     --placeholder-color: #000000;
 }
+
+.radio-background-color {
+    --ion-item-background:transparent;
+    --background: transparent;
+    --color: transparent;
+    --placeholder-color: #000000;
+    --ion-item-border-color:0;
+    --border-style:transparent;
+}
+
+.item-inner{
+    --border-style:transparent;
+}
+
 
 .input-number {
     font-size: 14px;
@@ -31,7 +46,6 @@ ion-item {
     border-radius: 10px;
 
 }
-
 .cadastro {
     margin-top: 20px;
     text-align: center;
@@ -48,4 +62,8 @@ ion-button {
     width: 60%;
     margin-left: 20%;
     margin-top: 50px;
+}
+.container{
+    width: 90%;
+    margin-left: 5%;
 }
